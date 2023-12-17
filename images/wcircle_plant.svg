@@ -1,7 +1,7 @@
-<svg width="160" height="772" viewBox="0 0 160 772" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M88.9788 16.4453L88.9788 245.782M88.9788 771.492L88.9788 245.782M88.9788 245.782C72.5137 218.144 37.1135 161.457 27.2344 155.811" stroke="#CBC5EA" stroke-width="2"/>
-<path d="M88.9766 175.216C102.502 140.522 130.61 71.1328 134.844 71.1328" stroke="#CBC5EA" stroke-width="2"/>
-<circle cx="88.9772" cy="18.2077" r="16.6413" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="2"/>
-<circle cx="141.901" cy="60.5475" r="16.6413" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="2"/>
-<circle cx="18.4108" cy="148.755" r="16.6413" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="2"/>
+<svg width="120" height="578" viewBox="0 0 120 578" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M66.7771 12.1562L66.7771 183.912M66.7771 577.629L66.7771 183.912M66.7771 183.912C54.4459 163.213 27.9339 120.759 20.5352 116.531" stroke="#CBC5EA" stroke-width="1.49785"/>
+<path d="M66.7754 131.064C76.9046 105.08 97.9556 53.1133 101.127 53.1133" stroke="#CBC5EA" stroke-width="1.49785"/>
+<circle cx="66.7764" cy="13.4776" r="12.463" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="1.49785"/>
+<circle cx="106.411" cy="45.1885" r="12.463" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="1.49785"/>
+<circle cx="13.9268" cy="111.247" r="12.463" fill="#EAEAEA" stroke="#CBC5EA" stroke-width="1.49785"/>
 </svg>

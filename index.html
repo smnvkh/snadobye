@@ -1,98 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta property="og:title" content="Снадобье"/>
+    <meta property="og:description" content="Постер для экомаркета, в котором продаются травы и грибы для зельеварения"/>
+    <meta property="og:image" content="images/frog_preview.png"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:url" content= ""/> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Снадобье</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icon.ico"/>
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <!-- <style>
+        html {
+            background-color:rgb(20, 16, 67);
+            display: block;
+            height: 2639px;
+        }
+        body::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2639px;
+            content: '';
+            background: url(images/bg.png);
+            opacity: 0.2;
+        }
+    </style> -->
 </head>
 <body>
     <!-- бегущая строка и звезды  -->
     <section class="header">
-        <p>волшебство природы в каждой травинке · волшебство природы в каждой травинке · волшебство природы в каждой травинке</p>
-        <img src="images/header_stars.svg" alt="">
+        <div class="container">
+            <div class="row">
+                <p>волшебство природы в каждой травинке · волшебство природы в каждой травинке · волшебство природы в каждой травинке · волшебство природы в каждой травинке волшебство природы в каждой травинке · волшеб</p>
+            </div>
+        </div>
+        <img src="images/stars_header.svg" alt="">
     </section>
 
     <!-- первый ряд цветов  -->
     <section class="first_row">
         <div class="first_flowers">
-            <img src="images/heart_plant.svg" alt="">
-            <img src="images/pansy.svg" alt="">
-            <img src="images/vcircle_plant.svg" alt="">
-            <img src="images/pcircle_plant.svg" alt="">
-            <img src="images/sea_plant.svg" alt="">
-            <img src="images/chamomile.svg" alt="">
-            <img src="images/violet_mushroom.svg" alt="">
-            <img src="images/bell_flower.svg" alt="">
-            <img src="images/zig.svg" alt="">
-            <img src="images/zag.svg" alt="">
-            <img src="images/wavy_mushroom.svg" alt="">
-            <img src="images/daisy.svg" alt="">
+                <img src="images/heart_plant.svg" alt="" class="heartplant">
+                <img src="images/pansy.svg" alt="" class="pansy">
+                <img src="images/vcircle_plant.svg" alt="" class="vcircleplant">
+                <img src="images/pcircle_plant.svg" alt="" class="pcircleplant">
+                <img src="images/sea_plant.svg" alt="" class="seaplant">
+                <img src="images/chamomile.svg" alt="" class="chamomile">
+                <img src="images/violet_mushroom.svg" alt="" class="violetmushroom">
+                <img src="images/bell_flower.svg" alt="" class="bellflower">
+                <img src="images/zig_plant.svg" alt="" class="zigplant">
+                <img src="images/zag_plant.svg" alt="" class="zagplant">
+                <img src="images/wavy_mushroom.svg" alt="" class="wavymushroom">
+                <img src="images/daisy.svg" alt="" class="daisy">
+            </div>
         </div>
         <div class="first_names">
-            <p>проклятье невесты</p>
-            <p>жабья радость</p>
-            <p>лесной заговор</p>
+            <div class="bride">
+                <p>проклятье невесты</p>
+            </div>
+            <div class="happiness">
+                <p>жабья радость</p>
+            </div>
+            <div class="forest">
+                <p>лесной заговор</p>
+            </div>
         </div>
     </section>
 
     <!-- второй ряд цветов-->
     <section class="second_row">
         <div class="frog">
-            <img src="images/frog.svg" alt="">
-            <img src="images/frog_eyes.svg" alt="">
+            <img src="images/frog.svg" alt="" class="animal">
+            <img src="images/frog_eyes.svg" alt="" class="eyes">
         </div>
         <div class="second_flowers">
-            <img src="images/woman_bite.svg" alt="">
-            <img src="images/algae.svg" alt="">
-            <img src="images/snowdrop.svg" alt="">
-            <img src="images/poppy.svg" alt="">
-            <img src="images/pimply_mushroom.svg" alt="">
-            <img src="images/bent_grass.svg" alt="">
-            <img src="images/septum_grass.svg" alt="">
-            <img src="images/cornflower.svg" alt="">
-            <img src="images/water_plant.svg" alt="">
+            <img src="images/woman_bite.svg" alt="" class="womanbite">
+            <img src="images/algae.svg" alt="" class="algae">
+            <img src="images/snowdrop.svg" alt="" class="snowdrop">
+            <img src="images/poppy.svg" alt="" class="poppy">
+            <img src="images/pimply_mushroom.svg" alt="" class="pimplymushroom">
+            <img src="images/bent_grass.svg" alt="" class="bentgrass">
+            <img src="images/septum_grass.svg" alt="" class="septumgrass">
+            <img src="images/cornflower.svg" alt="" class="cornflower">
+            <img src="images/water_plant.svg" alt="" class="waterplant">
         </div>
         <div class="second_names">
-            <p>укус женщины</p>
-            <p>зловещий хмель</p>
-            <p>чарующий ужас</p>
+            <div class="woman">
+                <p>укус женщины</p>
+            </div>
+            <div class="horror">
+                <p>чарующий ужас</p>
+            </div>
+            <div class="hop">
+                <p>зловещий хмель</p>
+            </div>
         </div>
     </section>
 
     <!-- третий ряд цветов -->
     <section class="third_row">
         <div class="grasshopper">
-            <img src="images/grasshopper.svg" alt="">
-            <img src="images/grasshopper_eyes.svg" alt="">
+            <img src="images/grasshopper.svg" alt="" class="insect">
+            <img src="images/grasshopper_eyes.svg" alt="" class="lights">
         </div>
         <div class="third_flowers">
-            <img src="images/narcissus.svg" alt="">
-            <img src="images/small_mushroom.svg" alt="">
-            <img src="images/violet_heartplant.svg" alt="">
-            <img src="images/iris.svg" alt="">
-            <img src="images/zag.svg" alt="">
-            <img src="images/zig.svg" alt="">
-            <img src="images/green_mushroom.svg" alt="">
-            <img src="images/jasmine.svg" alt="">
-            <img src="images/periwinkle_mushroom.svg" alt="">
-            <img src="images/berry.svg" alt="">
-            <img src="images/wcircle_plant.svg" alt="">
+            <img src="images/narcissus.svg" alt="" class="narcissus">
+            <img src="images/small_mushroom.svg" alt="" class="smallmushroom">
+            <img src="images/violet_heartplant.svg" alt="" class="violetheartplant">
+            <img src="images/iris.svg" alt="" class="iris">
+            <img src="images/zag.svg" alt="" class="zag">
+            <img src="images/zig.svg" alt="" class="zig">
+            <img src="images/green_mushroom.svg" alt="" class="greenmushroom">
+            <img src="images/jasmine.svg" alt="" class="jasmine">
+            <img src="images/periwinkle_mushroom.svg" alt="" class="periwinklemushroom">
+            <img src="images/berry.svg" alt="" class="berry">
+            <img src="images/wcircle_plant.svg" alt="" class="wcircle_plant">
         </div>
         <div class="third_names">
-            <p>горький сон</p>
-            <p>корень любви</p>
-            <p>вечная тьма</p>
+            <div class="dream">
+                <p>горький сон</p>
+            </div>
+            <div class="love">
+                <p>корень любви</p>
+            </div>
+            <div class="dark">
+                <p>вечная тьма</p>
+            </div>
         </div>
     </section>
 
     <!-- инфо и звезды  -->
     <section class="footer">
-        <div class="info">
+        <div class="group">
             <p>бп23Д307</p>
+        </div>
+        <div class="name">
             <p>семеновых мария</p>
         </div>
-        <img src="images/footer_stars.svg" alt="">
-        <img src="images/mob_footer_stars.svg" alt="">
+        <div class="starsfooter">
+            <img src="images/stars_footer.svg" alt="">
+        </div>
     </section>
 </body>
 </html>
