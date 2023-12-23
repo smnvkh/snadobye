@@ -1,0 +1,384 @@
+/* 1920 dekstop — full hd */
+@media (min-width: 1920px) {
+
+    .first_row, .second_row, .third_row {
+        font-size: 40px;
+        letter-spacing: 10px;
+        line-height: 50px;
+    }
+
+    /* бегущая строка */
+    .container {
+        height: 46px;
+        padding: 64px 0;
+    }
+    .row {
+        width: 5199px;
+        height: 63px;
+        font-size: 55px;
+        letter-spacing: 14px;
+    }
+
+    /* анимация для бегущей строки  */
+    @keyframes row {
+        0% {
+            right: -3196px;
+        }
+        100% {
+            right: calc(100% - 1920px);
+        }
+    }
+
+    /* звездочки  */
+    .header img {
+        width: 1735px;
+        height: 311px;
+    }
+
+    /* первый ряд цветов  */
+    .first_row {
+        height: 978px;
+    }
+
+    .heartplant {
+        width: 373px;
+        height: 679px;
+        margin-top: 212px;
+        margin-left: -60px;
+    }
+
+    .pansy {
+        width: 317px;
+        height: 494px;
+        margin-left: -104px;
+        margin-right: -41px;
+        margin-bottom: 2px;
+    }
+
+    .vcircleplant {
+        width: 212px;
+        height: 781px;
+        margin-left: -96px;
+        margin-right: -11px;
+    }
+
+    .pcircleplant {
+        width: 35px;
+        height: 475px;
+    }
+
+    .seaplant {
+        width: 201px;
+        height: 315px;
+    }
+
+    .chamomile {
+        width: 232px;
+        height: 711px;
+        margin-left: -54px;
+    }
+
+    .violetmushroom {
+        width: 194px;
+        height: 250px;
+        margin-left: -114px;
+    }
+
+    .bellflower {
+        width: 287px;
+        height: 455px;
+    }
+
+    .zigplant {
+        width: 266px;
+        height: 851px;
+        margin-left: -148px;
+    }
+
+    .zagplant {
+        width: 19px;
+        height: 700px;
+        margin-left: -13px;
+    }
+
+    .wavymushroom {
+        width: 161px;
+        height: 332px;
+    }
+
+    .daisy {
+        width: 269px;
+        height: 796px;
+        margin-left: -23px;
+    }
+
+    /* первый ряд названий */
+    .first_names {
+        width: 1588px;
+        height: 456px;
+    }
+
+    .bride, .happiness, .forest {
+        width: 281px;
+        height: 92px;
+    }
+
+    .bride p{
+        margin-left: 9px;
+        margin-top: -806px;
+    }
+
+    .happiness p{
+        margin-left: 158px;
+        margin-top: -588px;
+    }
+
+    .forest p{
+        margin-left: 64px;
+        margin-top: -906px;
+    }
+
+    /* второй ряд цветов  */
+    .second_row {
+        height: 1078px;
+    }
+
+    .animal {
+        width: 441px;
+        height: 314px;
+        margin-top: -33px;
+        margin-left: 266px;
+        margin-right: -590px;
+    }
+
+    .eyes {
+        margin-top: -13px;
+        margin-left: 235px;
+        width: 247px;
+        height: 75px;
+    }
+
+    .second_flowers {
+        margin-top: -362px;
+    }
+
+    .womanbite {
+        width: 335px;
+        height: 285px;
+        margin-left: 33px;
+        margin-right: -21px;
+    }
+
+    .algae {
+        width: 782px;
+        height: 861px;
+        margin-left: -411px;
+    }
+
+    .snowdrop {
+        width: 172px;
+        height: 481px;
+        margin-left: -102px;
+    }
+
+    .poppy {
+        width: 251px;
+        height: 773px;
+        margin-left: -19px;
+    }
+
+    .pimplymushroom {
+        width: 235px;
+        height: 298px;
+        margin-left: 8px;
+    }
+
+    .bentgrass {
+        width: 262px;
+        height: 746px;
+        margin-left: -170px;
+    }
+
+    .septumgrass {
+        width: 93px;
+        height: 581px;
+        margin-left: 21px;
+    }
+
+    .cornflower {
+        width: 327px;
+        height: 813px;
+        margin-left: -18px;
+    }
+
+    .waterplant {
+        width: 214px;
+        height: 234px;
+        margin-left: -135px;
+    }
+
+    /* второй ряд названий */
+    .second_names {
+        height: 1477px;
+        width: 912px;
+    }
+
+    .woman, .hop, .horror {
+        width: 150px;
+        height: 92px;
+    }
+
+    .woman p{
+        margin-left: 91px;
+        margin-top: -421px;
+    }
+
+    .horror p{
+        margin-left: 8px;
+        margin-top: -64px;
+    }
+
+    .hop p{
+        width: 150px;
+        height: 92px;
+        margin-left: 536px;
+        margin-top: -779px;
+    }
+
+    /* третий ряд цветов  */
+    .insect {
+        width: 576px;
+        height: 633px;
+        margin-top: -350px;
+        margin-left: 1189px;
+    }
+
+    .lights {
+        width: 138px;
+        height: 70px;
+        margin-top: -219px;
+        margin-left: -521px;
+    }
+
+    .third_flowers {
+        width: 1920px;
+        height: 1040px;
+        margin-top: -684px;
+    }
+
+    .narcissus {
+        width: 763px;
+        height: 865px;
+        margin-bottom: -59px;
+        margin-left: -164px;
+    }
+
+    .smallmushroom {
+        width: 143px;
+        height: 222px;
+        margin-left: -253px;
+    }
+
+    .violetheartplant {
+        width: 87px;
+        height: 339px;
+        margin-left: 37px;
+    }
+
+    .iris {
+        width: 455px;
+        height: 807px;
+        margin-left: -131px;
+    }
+
+    .zag {
+        width: 31px;
+        height: 695px;
+        margin-left: -18px;
+    }
+
+    .zig {
+        width: 266px;
+        height: 855px;
+        margin-left: -19px;
+        margin-right: 53px;
+    }
+
+    .greenmushroom {
+        width: 286px;
+        height: 367px;
+        margin-left: -301px;
+        margin-right: 86px;
+    }
+
+    .jasmine {
+        width: 344px;
+        height: 674px;
+        margin-left: -230px;
+        margin-right: -12px;
+    }
+
+    .periwinklemushroom {
+        width: 213px;
+        height: 256px;
+        margin-left: -43px;
+    }
+
+    .berry {
+        width: 133px;
+        height: 369px;
+        margin-left: 2px;
+    }
+
+    .wcircle_plant {
+        width: 159px;
+        height: 770px;
+        margin-left: -31px;
+    } 
+
+    /* третий ряд названий */
+    .third_names {
+        width: 1770px;
+    }
+
+    .dream, .love, .dark {
+        width: 182px;
+        height: 92px;
+    }
+
+    .dream p{
+        margin-left: 64px;
+        margin-top: -153px;
+    }
+
+    .love p{
+        margin-left: 191px;
+        margin-top: -798px;
+    }
+
+    .dark p{
+        margin-left: 43px;
+        margin-top: -858px;
+    }
+
+    /* футер со звездочками */
+
+    .footer {
+        font-size: 30px;
+        letter-spacing: 8px;
+        height: 331px;
+    }
+    .group {
+        margin-left: 80px;
+        margin-top: 127px;
+    }
+    .name {
+        margin-left: 80px;
+        margin-top: 6px;
+    }
+    .starsfooter img {
+        width: 1795px;
+        height: 161px;
+        margin-top: -29px;
+    }
+}
