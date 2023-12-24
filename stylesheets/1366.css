@@ -8,8 +8,8 @@
     
     /* бегущая строка */
     .container {
-        height: 44px;
-        padding: 44px 0;
+        height: 40px;
+        padding: 40px 0;
     }
 
     .row {
@@ -36,22 +36,22 @@
         max-width: 1366px;
         }
 
-    #littlestar1, #littlestar2, #littlestar3, #littlestar4, #littlestar5, #littlestar6, #littlestar7, #littlestar8 {
+    #littlestar1, #littlestar2, #littlestar3, #littlestar4, #littlestar5, #littlestar6, #littlestar7, #littlestar8, #littlestar1 img, #littlestar2 img, #littlestar3 img, #littlestar4 img, #littlestar5 img, #littlestar6 img, #littlestar7 img, #littlestar8 img {
         width: 9px;
         height: 11px;
     }
     
-    #smallstar1, #smallstar2, #smallstar3, #smallstar4, #smallstar5, #smallstar6, #smallstar7 {
+    #smallstar1, #smallstar2, #smallstar3, #smallstar4, #smallstar5, #smallstar6, #smallstar7, #smallstar1 img, #smallstar2 img, #smallstar3 img, #smallstar4 img, #smallstar5 img, #smallstar6 img, #smallstar7 img {
         width: 20px;
         height: 20px;
     }
 
-    #middlestar1, #middlestar2, #middlestar3, #middlestar4, #middlestar5, #middlestar6, #middlestar7 {
+    #middlestar1, #middlestar2, #middlestar3, #middlestar4, #middlestar5, #middlestar6, #middlestar7, #middlestar1 img, #middlestar2 img, #middlestar3 img, #middlestar4 img, #middlestar5 img, #middlestar6 img, #middlestar7 img {
         width: 23px;
         height: 30px;
     }
 
-    #bigstar1, #bigstar2, #bigstar3, #bigstar4, #bigstar5, #bigstar6, #bigstar7 {
+    #bigstar1, #bigstar2, #bigstar3, #bigstar4, #bigstar5, #bigstar6, #bigstar7, #bigstar1 img, #bigstar2 img, #bigstar3 img, #bigstar4 img, #bigstar5 img, #bigstar6 img, #bigstar7 img {
         width: 35px;
         height: 35px;
     }
