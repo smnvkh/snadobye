@@ -1,17 +1,18 @@
 /* 1920 dekstop — full hd */
 @media (min-width: 1920px) {
 
-    .first_row, .second_row, .third_row {
+    .first_row p, .second_row p, .third_row p {
         font-size: 40px;
         letter-spacing: 10px;
         line-height: 50px;
+        width: 280px;
     }
 
-    /* бегущая строка */
     .container {
         height: 46px;
         padding: 64px 0;
-    }
+    }    
+
     .row {
         width: 5199px;
         height: 63px;
@@ -21,364 +22,1782 @@
 
     /* анимация для бегущей строки  */
     @keyframes row {
-        0% {
-            right: -3196px;
-        }
-        100% {
-            right: calc(100% - 1920px);
-        }
+    0% {
+        right: -3196px;
+    }
+    100% {
+        right: calc(100% - 1920px);
+    }
     }
 
     /* звездочки  */
-    .header img {
-        width: 1735px;
-        height: 311px;
+    .headerstars {
+    height: 312px;
+    max-width: 1920px;
+    }
+
+    #littlestar1, #littlestar2, #littlestar3, #littlestar4, #littlestar5, #littlestar6, #littlestar7, #littlestar8 {
+        width: 14px;
+        height: 18px;
+    }
+    
+    #smallstar1, #smallstar2, #smallstar3, #smallstar4, #smallstar5, #smallstar6, #smallstar7 {
+        width: 25px;
+        height: 25px;
+    }
+
+    #middlestar1, #middlestar2, #middlestar3, #middlestar4, #middlestar5, #middlestar6, #middlestar7 {
+        width: 28px;
+        height: 36px;
+    }
+
+    #bigstar1, #bigstar2, #bigstar3, #bigstar4, #bigstar5, #bigstar6, #bigstar7 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .first_stars {
+        height: 81px;
+    }
+
+    #littlestar1 {
+        margin-top: 7px;
+        margin-left: 91px;
+    }
+    
+    #middlestar1 {
+        margin-top: 4px;
+        margin-left: 295px;
+    }
+    
+    #bigstar1 {
+        margin-top: 34px;
+        margin-left: 413px;
+    }
+    
+    #middlestar2 {
+        margin-top: 25px;
+        margin-left: 507px;
+    }
+    
+    #littlestar2 {
+        margin-top: 7px;
+        margin-left: 343px;
+    }
+
+    .second_stars {
+        height: 88px;
+    }
+    
+    #smallstar1 {
+        margin-top: 96px;
+        margin-left: 222px;
+    }
+    
+    #littlestar3 {
+        margin-top: 31px;
+        margin-left: 405px;
+    }
+    
+    #smallstar2 {
+        margin-top: 52px;
+        margin-left: 501px;
+    }
+    
+    #littlestar4 {
+        margin-top: 59px;
+        margin-left: 423px;
+    }
+
+    #bigstar2 {
+        margin-top: 62px;
+        margin-left: 505px;
+    }
+    
+    #smallstar3 {
+        margin-top: 55px;
+        margin-left: 380px;
+    }
+    
+    #bigstar3 {
+        margin-top: 87px;
+        margin-left: 394px;
+    }
+    
+    #middlestar3 {
+        margin-top: 39px;
+        margin-left: 383px;
+    }
+
+    /* насекомые  */
+    
+    .insects {
+        height: 281px;
+    }
+
+    #butterfly {
+        width: 246px;
+        height: 216px;
+        margin-top: -234px;
+        margin-left: -198px;
+    }
+    
+    #dragonfly {
+        width: 210px;
+        height: 152px;
+        margin-top: -234px;
+        margin-left: -198px;
+    }
+
+    #beetle {
+        width: 107px;
+        height: 155px;
+        margin-top: -234px;
+        margin-left: -198px;
     }
 
     /* первый ряд цветов  */
     .first_row {
         height: 978px;
+        max-width: 1920px;
+        margin-top: -70px;
     }
 
     .heartplant {
-        width: 373px;
-        height: 679px;
-        margin-top: 212px;
-        margin-left: -60px;
+        margin-bottom: 170px;
     }
 
-    .pansy {
-        width: 317px;
-        height: 494px;
-        margin-left: -104px;
-        margin-right: -41px;
-        margin-bottom: 2px;
+    #heartplant{
+        margin-left: -169px;
+        margin-bottom: -672px;
     }
 
-    .vcircleplant {
-        width: 212px;
-        height: 781px;
+    .violethearts {
+        margin-left: -3px;
+        margin-bottom: 7px;
+    }
+
+    #oneheart {
+        margin-left: -225px;
+        margin-bottom: 101px;
+    }
+
+    #twoheart {
+        margin-left: -204px;
+        margin-bottom: -19px;
+    }
+    
+    #threeheart {
+        margin-left: -176px;
+        margin-bottom: -16px;
+    }
+    
+    #fourheart {
+        margin-left: -144px;
+        margin-bottom: -16px;
+    }
+    
+    #fiveheart {
+        margin-left: -112px;
+        margin-bottom: -16px;
+    }
+    
+    #sixheart {
+        margin-left: -75px;
+        margin-bottom: -16px;
+    }
+    
+    #sevenheart {
+        margin-left: -37px;
+        margin-bottom: -17px;
+    }
+
+    .heartplant p {
+        margin-left: 173px;
+        margin-bottom: 22px;
+    }
+
+    #pansy {
+        width: 305px;
+        height: 504px;
+        margin-left: -238px;
+        margin-right: 59px;
+        margin-bottom: 15px;
+    }
+    
+    @keyframes pansy {
+        0% {
+            background-position: 0px top;
+        }
+        7% {
+            background-position: -305px top;
+        }
+        14% {
+            background-position: -610px top;
+        }
+        21% {
+            background-position: -915px top;
+        }
+        28% {
+            background-position: -1220px top;
+        }
+        35% {
+            background-position: -1525px top;
+        }
+        42% {
+            background-position: -1830px top;
+        }
+        49% {
+            background-position: 0px -504px;
+        }
+        56% {
+            background-position: -305px -504px;
+        }
+        63% {
+            background-position: -610px -504px;
+        }
+        70% {
+            background-position: -915px -504px;
+        }
+        77% {
+            background-position: -1220px -504px;
+        }
+        84% {
+            background-position: -1525px -504px;
+        }
+        91% {
+            background-position: -1830px -504px;
+        }
+    }
+
+    #vcircleplant {
+        margin-left: -184px;
+        margin-bottom: 18px;
+    }
+    
+    #firstneedle {
+        margin-left: -25px;
+        margin-bottom: -104px;
+        }    
+
+    #secondneedle {
+        margin-left: -107px;
+        margin-bottom: -56px;
+    }
+
+    #thirdneedle {
+        margin-left: -139px;
+        margin-bottom: -184px;
+        }
+    
+    #pcircleplant {
+    margin-left: -71px;
+    margin-bottom: 25px;
+    }
+
+    #fourthneedle {
+    margin-left: -67px;
+    margin-bottom: -33px;
+    }   
+
+    #seaplant {
+        width: 205px;
+        height: 312px;
+        margin-left: -34px;
+        margin-bottom: 24px;
+    }
+    
+    @keyframes seaplant { 
+        0% {
+            background-position: 0 0;
+        }
+        25% {
+            background-position: -205px 0;
+        }
+        50% {
+            background-position: -410px 0;
+        }
+        75% {
+            background-position: -615px 0;
+        }
+    }
+
+    #chamomile {
+        width: 231px;
+        height: 710px;
+        margin-left: -81px;
+        margin-bottom: 24px;
+    }
+
+    @keyframes chamomile { 
+        0% {
+            background-position: 0 0;
+        }
+        4% {
+            background-position: -231px 0;
+        }
+        8% {
+            background-position: -462px 0;
+        }
+        12% {
+            background-position: -693px 0;
+        }
+        16% {
+            background-position: -924px 0;
+        }
+        20% {
+            background-position: -1155px 0;
+        }
+        24% {
+            background-position: -1386px 0;
+        }
+        28% {
+            background-position: -1617px 0;
+        }
+        32% {
+            background-position: 0 -710px;
+        }
+        36% {
+            background-position: -231px -710px;
+        }
+        40% {
+            background-position: -462px -710px;
+        }
+        44% {
+            background-position: -693px -710px;
+        }
+        48% {
+            background-position: -924px -710px;
+        }
+        52% {
+            background-position: -1155px -710px;
+        }
+        56% {
+            background-position: -1386px -710px;
+        }
+        60% {
+            background-position: -1617px -710px;
+        }
+        64% {
+            background-position: 0 -1420px;
+        }
+        68% {
+            background-position: -231px -1420px;
+        }
+        72% {
+            background-position: -462px -1420px;
+        }
+        76% {
+            background-position: -693px -1420px;
+        }
+        80% {
+            background-position: -924px -1420px;
+        }
+        84% {
+            background-position: -1155px -1420px;
+        }
+        87% {
+            background-position: -1386px -1420px;
+        }
+        90% {
+            background-position: -1617px -1420px;
+        }
+        93% {
+            background-position: 0 -2130px;
+        }
+        96% {
+            background-position: -231px -2130px;
+        }
+        99% {
+            background-position: -462px -2130px;
+        }
+    }
+
+    #violetmushroom {
         margin-left: -96px;
-        margin-right: -11px;
-    }
-
-    .pcircleplant {
-        width: 35px;
-        height: 475px;
-    }
-
-    .seaplant {
-        width: 201px;
-        height: 315px;
-    }
-
-    .chamomile {
-        width: 232px;
-        height: 711px;
-        margin-left: -54px;
-    }
-
-    .violetmushroom {
-        width: 194px;
+        margin-bottom: 18px;
+        width: 175px;
         height: 250px;
-        margin-left: -114px;
+    }
+    
+    @keyframes violetmushroom { 
+        0% {
+            background-position: 0px 0;
+        }
+        50% {
+            background-position: -175px 0;
+        }
     }
 
     .bellflower {
-        width: 287px;
-        height: 455px;
+        margin-bottom: 26px;
+        width: 306px;
+        height: 468px;
     }
 
-    .zigplant {
+    @keyframes bellflower { 
+        0% {
+            background-position: 0 0;
+        }
+        5% {
+            background-position: -306px 0;
+        }
+        10% {
+            background-position: -612px 0;
+        }
+        15% {
+            background-position: -918px 0;
+        }
+        20% {
+            background-position: -1224px 0;
+        }
+        25% {
+            background-position: -1530px 0;
+        }
+        30% {
+            background-position: -1836px 0;
+        }
+        35% {
+            background-position: -2142px 0;
+        }
+        40% {
+            background-position: 0 -468px;
+        }
+        45% {
+            background-position: -306px -468px;
+        }
+        50% {
+            background-position: -612px -468px;
+        }
+        55% {
+            background-position: -918px -468px;
+        }
+        60% {
+            background-position: -1224px -468px;
+        }
+        65% {
+            background-position: -1530px -468px;
+        }
+        70% {
+            background-position: -1836px -468px;
+        }
+        75% {
+            background-position: -2142px -468px;
+        }
+        80% {
+            background-position: 0 -936px;
+        }
+        85% {
+            background-position: -306px -936px;
+        }
+        90% {
+            background-position: -612px -936px;
+        }
+        95% {
+            background-position: -918px -936px;
+        }
+    }
+
+    .bellflower p {
+        margin-left: -63px;
+        margin-top: -174px;
+    }
+
+    #zigplant {
+        margin-left: -203px;
+        margin-right: 33px;
+        margin-bottom: 22px;
         width: 266px;
-        height: 851px;
-        margin-left: -148px;
+        height: 841px;
     }
 
-    .zagplant {
-        width: 19px;
-        height: 700px;
-        margin-left: -13px;
+    @keyframes zigplant { 
+        0% {
+            background-position: 0 0;
+        }
+        4% {
+            background-position: -266px 0;
+        }
+        8% {
+            background-position: -532px 0;
+        }
+        12% {
+            background-position: -798px 0;
+        }
+        16% {
+            background-position: -1064px 0;
+        }
+        20% {
+            background-position: 0 -841px;
+        }
+        24% {
+            background-position: -266px -841px;
+        }
+        28% {
+            background-position: -532px -841px;
+        }
+        32% {
+            background-position: -798px -841px;
+        }
+        36% {
+            background-position: -1064px -841px;
+        }
+        40% {
+            background-position: 0 -1682px;
+        }
+        44% {
+            background-position: -266px -1682px;
+        }
+        48% {
+            background-position: -532px -1682px;
+        }
+        52% {
+            background-position: -798px -1682px;
+        }
+        56% {
+            background-position: -1064px -1682px;
+        }
+        60% {
+            background-position: 0 -2523px;
+        }
+        64% {
+            background-position: -266px -2523px;
+        }
+        68% {
+            background-position: -532px -2523px;
+        }
+        72% {
+            background-position: -798px -2523px;
+        }
+        76% {
+            background-position: -1064px -2523px;
+        }
+        80% {
+            background-position: 0 -3364px;
+        }
+        84% {
+            background-position: -266px -3364px;
+        }
+        88% {
+            background-position: -532px -3364px;
+        }
+        92% {
+            background-position: -798px -3364px;
+        }
     }
 
-    .wavymushroom {
-        width: 161px;
-        height: 332px;
+    #zagplant {
+        width: 18px;
+        height: 696px;
+        margin-bottom: 15px;
+    }
+
+    @keyframes zagplant { 
+        0% {
+            background-position: 0 0;
+        }
+        4% {
+            background-position: -18px 0;
+        }
+        8% {
+            background-position: -36px 0;
+        }
+        12% {
+            background-position: -54px 0;
+        }
+        16% {
+            background-position: -72px 0;
+        }
+        20% {
+            background-position: 0 -696px;
+        }
+        24% {
+            background-position: -18px -696px;
+        }
+        28% {
+            background-position: -36px -696px;
+        }
+        32% {
+            background-position: -54px -696px;
+        }
+        36% {
+            background-position: -72px -696px;
+        }
+        40% {
+            background-position: 0 -1392px;
+        }
+        44% {
+            background-position: -18px -1392px;
+        }
+        48% {
+            background-position: -36px -1392px;
+        }
+        52% {
+            background-position: -54px -1392px;
+        }
+        56% {
+            background-position: -72px -1392px;
+        }
+        60% {
+            background-position: 0 -2088px;
+        }
+        64% {
+            background-position: -18px -2088px;
+        }
+        68% {
+            background-position: -36px -2088px;
+        }
+        72% {
+            background-position: -54px -2088px;
+        }
+        76% {
+            background-position: -72px -2088px;
+        }
+        80% {
+            background-position: 0 -2784px;
+        }
+        84% {
+            background-position: -18px -2784px;
+        }
+        88% {
+            background-position: -36px -2784px;
+        }
+        92% {
+            background-position: -54px -2784px;
+        }
+        96% {
+            background-position: -72px -2784px;
+        }
+    }
+
+    #wavymushroom {
+        margin-left: 22px;
+        width: 146px;
+        height: 331px;
+    }
+    
+    @keyframes wavymushroom { 
+        0% {
+            background-position: 0 0;
+        }
+        4% {
+            background-position: -146px 0;
+        }
+        8% {
+            background-position: -292px 0;
+        }
+        12% {
+            background-position: -438px 0;
+        }
+        16% {
+            background-position: -584px 0;
+        }
+        20% {
+            background-position: 0 -331px;
+        }
+        24% {
+            background-position: -146px -331px;
+        }
+        28% {
+            background-position: -292px -331px;
+        }
+        32% {
+            background-position: -438px -331px;
+        }
+        36% {
+            background-position: -584px -331px;
+        }
+        40% {
+            background-position: 0 -662px;
+        }
+        44% {
+            background-position: -146px -662px;
+        }
+        48% {
+            background-position: -292px -662px;
+        }
+        52% {
+            background-position: -438px -662px;
+        }
+        56% {
+            background-position: -584px -662px;
+        }
+        60% {
+            background-position: 0 -993px;
+        }
+        64% {
+            background-position: -146px -993px;
+        }
+        68% {
+            background-position: -292px -993px;
+        }
+        72% {
+            background-position: -438px -993px;
+        }
+        76% {
+            background-position: -584px -993px;
+        }
+        80% {
+            background-position: 0 -1324px;
+        }
+        84% {
+            background-position: -146px -1324px;
+        }
+        88% {
+            background-position: -292px -1324px;
+        }
+        92% {
+            background-position: -438px -1324px;
+        }
+        96% {
+            background-position: -584px -1324px;
+        }
     }
 
     .daisy {
-        width: 269px;
-        height: 796px;
-        margin-left: -23px;
+        margin-bottom: 820px;
+    }
+    
+    #daisy {
+        margin-left: -59px;
+        margin-bottom: -730px;
+    }
+    
+    #core {
+        margin-left: -68px;
     }
 
-    /* первый ряд названий */
-    .first_names {
-        width: 1588px;
-        height: 456px;
-    }
-
-    .bride, .happiness, .forest {
-        width: 281px;
-        height: 92px;
-    }
-
-    .bride p{
-        margin-left: 9px;
-        margin-top: -806px;
-    }
-
-    .happiness p{
-        margin-left: 158px;
-        margin-top: -588px;
-    }
-
-    .forest p{
-        margin-left: 64px;
-        margin-top: -906px;
+    .daisy p {
+        margin-right: 98px;
+        margin-top: -370px;
+        margin-left: -84px;
     }
 
     /* второй ряд цветов  */
+
     .second_row {
-        height: 1078px;
+        height: 1076px;
+        max-width: 1920px;
     }
 
-    .animal {
-        width: 441px;
-        height: 314px;
-        margin-top: -33px;
-        margin-left: 266px;
-        margin-right: -590px;
+    .frog {
+        margin-left: 263px;
+        margin-top: 35px;
     }
 
-    .eyes {
-        margin-top: -13px;
-        margin-left: 235px;
-        width: 247px;
-        height: 75px;
+    #eyes {
+        margin-top: 22px;
+        margin-left: -359px;
+        width: 249px;
+        height: 71px;
+    }
+
+    @keyframes eyes {
+        0% {
+            background-position: 0px top;
+        }
+        25% {
+            background-position: -249px top;
+        }
+        50% {
+            background-position: -498px top;
+        }
+        75% {
+            background-position: -746px top;
+        }
     }
 
     .second_flowers {
-        margin-top: -362px;
+        margin-left: -616px;
+        margin-bottom: 226px;
     }
-
+    
     .womanbite {
-        width: 335px;
-        height: 285px;
-        margin-left: 33px;
-        margin-right: -21px;
+        margin-right: 201px;
+        margin-bottom: -90px;
+        width: 424px;
+        height: 415px; 
     }
-
+    
+    @keyframes womanbite {
+        0% {
+            background-position: 0px top;
+        }
+        11% {
+            background-position: -424px top;
+        }
+        22% {
+            background-position: -848px top;
+        }
+        33% {
+            background-position: -1272px top;
+        }
+        44% {
+            background-position: -1696px top;
+        }
+        55% {
+            background-position: -2120px top;
+        }
+        66% {
+            background-position: -2544px top;
+        }
+        77% {
+            background-position: -2968px top;
+        }
+        88% {
+            background-position: -3392px top;
+        }
+        99% {
+            background-position: -3816px top;
+        }
+    }
+    
+    .womanbite p {
+        margin-left: 105px;
+        margin-top: -78px;
+    }
+    
+    .algae p{
+        width: 150px;
+        margin-left: 275px;
+        margin-top: 739px;
+    }
+    
     .algae {
-        width: 782px;
-        height: 861px;
-        margin-left: -411px;
+        margin-bottom: 16px;
+        margin-left: -526px;
+        margin-right: 263px;
+        width: 479px;
+        height: 714px;
+    }
+    
+    @keyframes algae {
+        0% {
+            background-position: 0px top;
+        }
+        50% {
+            background-position: -479px top;
+        }
     }
 
-    .snowdrop {
-        width: 172px;
-        height: 481px;
-        margin-left: -102px;
+    #snowdrop {
+        margin-left: -243px;
+        margin-bottom: 14px;
+        width: 200px;
+        height: 450px;
     }
-
+    
+    @keyframes snowdrop {
+        0% {
+            background-position: 0px top;
+        }
+        6% {
+            background-position: -200px top;
+        }
+        12% {
+            background-position: -400px top;
+        }
+        18% {
+            background-position: -600px top;
+        }
+        24% {
+            background-position: -800px top;
+        }
+        30% {
+            background-position: -1000px top;
+        }
+        36% {
+            background-position: -1200px top;
+        }
+        42% {
+            background-position: 0px -450px;
+        }
+        48% {
+            background-position: -200px -450px;
+        }
+        51% {
+            background-position: -400px -450px;
+        }
+        54% {
+            background-position: -600px -450px;
+        }
+        57% {
+            background-position: -800px -450px;
+        }
+        60% {
+            background-position: -1000px -450px;
+        }
+        63% {
+            background-position: -1200px -450px;
+        }
+        66% {
+            background-position: 0px -900px;
+        }
+        69% {
+            background-position: -200px -900px;
+        }
+        72% {
+            background-position: -400px -900px;
+        }
+        75% {
+            background-position: -600px -900px;
+        }
+        78% {
+            background-position: -800px -900px;
+        }
+        81% {
+            background-position: -1000px -900px;
+        }
+        84% {
+            background-position: -1200px -900px;
+        }
+        87% {
+            background-position: 0px -1350px;
+        }
+        90% {
+            background-position: -200px -1350px;
+        }
+        93% {
+            background-position: -400px -1350px;
+        }
+        96% {
+            background-position: -600px -1350px;
+        }
+        97% {
+            background-position: -800px -1350px;
+        }
+        98% {
+            background-position: -1000px -1350px;
+        }
+        99% {
+            background-position: -1200px -1350px;
+        }
+    }
+    
     .poppy {
-        width: 251px;
-        height: 773px;
-        margin-left: -19px;
+        margin-bottom: 567px;
     }
-
-    .pimplymushroom {
+    
+    #poppy {
+        margin-left: -85px;
+        margin-bottom: 11px;
+    }
+    
+    #gear {
+        margin-left: -15px;
+        margin-top: -689px;
+        width: 122px;
+        height: 121px;
+    }
+    
+    @keyframes gear {
+        0% {
+            background-position: 0px top;
+        }
+        6% {
+            background-position: -121px top;
+        }
+        12% {
+            background-position: -242px top;
+        }
+        18% {
+            background-position: -363px top;
+        }
+        24% {
+            background-position: -484px top;
+        }
+        30% {
+            background-position: -605px top;
+        }
+        36% {
+            background-position: -726px top;
+        }
+        42% {
+            background-position: -847px top;
+        }
+        48% {
+            background-position: 0px -121px;
+        }
+        54% {
+            background-position: -121px -121px;
+        }
+        60% {
+            background-position: -242px -121px;
+        }
+        66% {
+            background-position: -363px -121px;
+        }
+        72% {
+            background-position: -484px -121px;
+        }
+        78% {
+            background-position: -605px -121px;
+        }
+        84% {
+            background-position: -726px -121px;
+        }
+        90% {
+            background-position: -847px -121px;
+        }
+    }
+    
+    #pimplymushroom {
+        margin-bottom: 13px;
         width: 235px;
-        height: 298px;
-        margin-left: 8px;
+        height: 271px;
     }
-
-    .bentgrass {
-        width: 262px;
-        height: 746px;
-        margin-left: -170px;
+    
+    @keyframes pimplymushroom {
+        0% {
+            background-position: 0px top;
+        }
+        50% {
+            background-position: -235px top;
+        }
+    }
+    
+    #bentgrass {
+        margin-left: -135px;
+        margin-bottom: -6px;
+        width: 263px;
+        height: 727px; 
+    }
+    
+    @keyframes bentgrass {
+        0% {
+            background-position: 0px top;
+        }
+        3% {
+            background-position: -263px top;
+        }
+        6% {
+            background-position: -526px top;
+        }
+        9% {
+            background-position: -789px top;
+        }
+        12% {
+            background-position: -1052px top;
+        }
+        15% {
+            background-position: -1315px top;
+        }
+        18% {
+            background-position: -1578px top;
+        }
+        21% {
+            background-position: -1841px top;
+        }
+        24% {
+            background-position: -2104px top;
+        }
+        27% {
+            background-position: -2367px top;
+        }
+        30% {
+            background-position: 0px -727px;
+        }
+        33% {
+            background-position: -263px -727px;
+        }
+        36% {
+            background-position: -526px -727px;
+        }
+        39% {
+            background-position: -789px -727px;
+        }
+        42% {
+            background-position: -1052px -727px;
+        }
+        45% {
+            background-position: -1315px -727px;
+        }
+        48% {
+            background-position: -1578px -727px;
+        }
+        51% {
+            background-position: -1841px -727px;
+        }
+        54% {
+            background-position: -2104px -727px;
+        }
+        57% {
+            background-position: -2367px -727px;
+        }
+        60% {
+            background-position: 0px -1454px;
+        }
+        63% {
+            background-position: -263px -1454px;
+        }
+        66% {
+            background-position: -526px -1454px;
+        }
+        69% {
+            background-position: -789px -1454px;
+        }
+        72% {
+            background-position: -1052px -1454px;
+        }
+        75% {
+            background-position: -1315px -1454px;
+        }
+        78% {
+            background-position: -1578px -1454px;
+        }
+        81% {
+            background-position: -1841px -1454px;
+        }
+        84% {
+            background-position: -2104px -1454px;
+        }
+        87% {
+            background-position: -2367px -1454px;
+        }
     }
 
     .septumgrass {
-        width: 93px;
-        height: 581px;
-        margin-left: 21px;
+        margin-top: -136px;
+        width: 92px;
+        height: 554px;
     }
-
-    .cornflower {
-        width: 327px;
-        height: 813px;
-        margin-left: -18px;
+    
+    @keyframes septumgrass {
+        0% {
+            background-position: 0px top;
+        }
+        10% {
+            background-position: -92px top;
+        }
+        20% {
+            background-position: -184px top;
+        }
+        30% {
+            background-position: -276px top;
+        }
+        40% {
+            background-position: -368px top;
+        }
+        50% {
+            background-position: -460px top;
+        }
+        60% {
+            background-position: -552px top;
+        }
+        70% {
+            background-position: -644px top;
+        }
+        80% {
+            background-position: -736px top;
+        }
+        90% {
+            background-position: -828px top;
+        }
     }
-
-    .waterplant {
+    
+    .septumgrass p{
+        width: 50px;
+        margin-left: -75px;
+        margin-top: -128px;
+    }
+    
+    #cornflower {
+        margin-left: -16px;
+        margin-bottom: 12px;
+        width: 330px;
+        height: 787px;
+    }
+    
+    @keyframes cornflower { 
+        0% {
+            background-position: 0px top;
+        }
+        20% {
+            background-position: -330px top;
+        }
+        40% {
+            background-position: -660px top;
+        }
+        60% {
+            background-position: -990px top;
+        }
+        80% {
+            background-position: -1320px top;
+        }
+    }
+    
+    #waterplant {
         width: 214px;
-        height: 234px;
-        margin-left: -135px;
+        height: 212px;
+        margin-left: -139px;
+        margin-bottom: 13px;
+    }
+    
+    @keyframes waterplant { 
+        0% {
+            background-position: 0px top;
+        }
+        25% {
+            background-position: -214px top;
+        }
+        50% {
+            background-position: -428px top;
+        }
+        75% {
+            background-position: -642px top;
+        }
     }
 
-    /* второй ряд названий */
-    .second_names {
-        height: 1477px;
-        width: 912px;
+ /* третий ряд цветов  */
+.third_row {
+    height: 716px;
+    max-width: 1920px;
+    margin-top: 337px;
+}
+
+#insect {
+    margin-top: -617px;
+    margin-left: 1189px;
+}
+
+#lights {
+    margin-top: -484px;
+    margin-left: -522px;
+    width: 137px;
+    height: 68px;
+}
+
+@keyframes lights {
+    0% {
+        background-position: 0px top;
+    }
+    33% {
+        background-position: -137px top;
+    }
+    66% {
+        background-position: -274px top;
+    }
+}
+
+
+.third_flowers {
+    margin-top: -545px;
+}
+
+.narcissus {
+    margin-right: 75px;
+    margin-left: 22px;
+    width: 434px;
+    height: 774px;
+}
+
+@keyframes narcissus { 
+    0% {
+        background-position: 0 0;
+    }
+    12% {
+        background-position: -434px 0;
+    }
+    24% {
+        background-position: -868px 0;
+    }
+    36% {
+        background-position: -1302px 0;
+    }
+    48% {
+        background-position: 0 -774px;
+    }
+    60% {
+        background-position: -434px -774px;
+    }
+    72% {
+        background-position: -868px -774px;
+    }
+    84% {
+        background-position: -1302px -774px;
+    }
+}
+
+.narcissus p{
+    margin-left: 2px;
+    margin-top: 654px;
+}
+
+#smallmushroom {
+    margin-left: -228px;
+    margin-right: 88px;
+    width: 143px;
+    height: 222px;
+}
+
+@keyframes smallmushroom { 
+    0% {
+        background-position: 143px 0;
+    }
+    35% {
+        background-position: 286px 0;
+    }
+    70% {
+        background-position: 429px 0;
+    }
+}
+
+#violetheartplant {
+    margin-left: -49px;
+    width: 87px;
+    height: 339px;
+}
+
+@keyframes violetheartplant { 
+    0% {
+        background-position: 0px 0;
+    }
+    25% {
+        background-position: -87px 0;
+    }
+    50% {
+        background-position: -174px 0;
+    }
+    75% {
+        background-position: -261px 0;
+    }
+}
+
+#iris {
+    margin-left: -134px;
+    width: 455px;
+    height: 808px;
+}
+
+@keyframes iris { 
+    0% {
+        background-position: 0px 0;
+    }
+    4% {
+        background-position: -455px 0;
+    }
+    8% {
+        background-position: -910px 0;
+    }
+    12% {
+        background-position: -1365px 0;
+    }
+    16% {
+        background-position: -1820px 0;
+    }
+    20% {
+        background-position: -2275px 0;
+    }
+    24% {
+        background-position: -2730px 0;
+    }
+    28% {
+        background-position: -3185px 0;
+    }
+    32% {
+        background-position: 0px -808px;
+    }
+    36% {
+        background-position: -455px -808px;
+    }
+    40% {
+        background-position: -910px -808px;
+    }
+    44% {
+        background-position: -1365px -808px;
+    }
+    48% {
+        background-position: -1820px -808px;
+    }
+    52% {
+        background-position: -2275px -808px;
+    }
+    56% {
+        background-position: -2730px -808px;
+    }
+    60% {
+        background-position: -3185px -808px;
+    }
+    64% {
+        background-position: 0px -1616px;
+    }
+    68% {
+        background-position: -455px -1616px;
+    }
+    72% {
+        background-position: -910px -1616px;
+    }
+    76% {
+        background-position: -1365px -1616px;
+    }
+    80% {
+        background-position: -1820px -1616px;
+    }
+    84% {
+        background-position: -2275px -1616px;
+    }
+    88% {
+        background-position: -2730px -1616px;
+    }
+}
+
+#zag {
+    margin-left: -10px;
+    margin-bottom: -5px;
+    width: 18px;
+    height: 696px;
+}
+
+#zig {
+    margin-left: 8px;
+    margin-right: 24px;
+    width: 266px;
+    height: 841px;
+}
+
+@keyframes zigplant { 
+    0% {
+        background-position: 0 0;
+    }
+    4% {
+        background-position: -266px 0;
+    }
+    8% {
+        background-position: -532px 0;
+    }
+    12% {
+        background-position: -798px 0;
+    }
+    16% {
+        background-position: -1064px 0;
+    }
+    20% {
+        background-position: 0 -841px;
+    }
+    24% {
+        background-position: -266px -841px;
+    }
+    28% {
+        background-position: -532px -841px;
+    }
+    32% {
+        background-position: -798px -841px;
+    }
+    36% {
+        background-position: -1064px -841px;
+    }
+    40% {
+        background-position: 0 -1682px;
+    }
+    44% {
+        background-position: -266px -1682px;
+    }
+    48% {
+        background-position: -532px -1682px;
+    }
+    52% {
+        background-position: -798px -1682px;
+    }
+    56% {
+        background-position: -1064px -1682px;
+    }
+    60% {
+        background-position: 0 -2523px;
+    }
+    64% {
+        background-position: -266px -2523px;
+    }
+    68% {
+        background-position: -532px -2523px;
+    }
+    72% {
+        background-position: -798px -2523px;
+    }
+    76% {
+        background-position: -1064px -2523px;
+    }
+    80% {
+        background-position: 0 -3364px;
+    }
+    84% {
+        background-position: -266px -3364px;
+    }
+    88% {
+        background-position: -532px -3364px;
+    }
+    92% {
+        background-position: -798px -3364px;
+    }
+}
+
+.zig p{
+    margin-left: -4px;
+    margin-bottom: -52px;
+}
+
+#greenmushroom {
+    margin-left: -239px;
+    margin-right: 86px;
+    margin-bottom: -20px;
+    width: 210px;
+    height: 369px;
+}
+
+@keyframes greenmushroom { 
+    0% {
+        background-position: 0 0;
+    }
+    4% {
+        background-position: -210px 0;
+    }
+    8% {
+        background-position: -420px 0;
+    }
+    12% {
+        background-position: -630px 0;
+    }
+    16% {
+        background-position: -840px 0;
+    }
+    20% {
+        background-position: 0 -369px;
+    }
+    24% {
+        background-position: -210px -369px;
+    }
+    28% {
+        background-position: -420px -369px;
+    }
+    32% {
+        background-position: -630px -369px;
+    }
+    36% {
+        background-position: -840px -369px;
+    }
+    40% {
+        background-position: 0 -738px;
+    }
+    44% {
+        background-position: -210px -738px;
+    }
+    48% {
+        background-position: -420px -738px;
+    }
+    52% {
+        background-position: -630px -738px;
+    }
+    56% {
+        background-position: -840px -738px;
+    }
+    60% {
+        background-position: 0 -1107px;
+    }
+    64% {
+        background-position: -210px -1107px;
+    }
+    68% {
+        background-position: -420px -1107px;
+    }
+    72% {
+        background-position: -630px -1107px;
+    }
+    76% {
+        background-position: -840px -1107px;
+    }
+    80% {
+        background-position: 0 -1476px;
+    }
+    84% {
+        background-position: -210px -1476px;
+    }
+    88% {
+        background-position: -420px -1476px;
+    }
+}
+
+.jasmine {
+    margin-bottom: 334px;
+}
+
+#jasminebody {
+    margin-bottom: -378px;
+}
+
+#jasminehead {
+    margin-top: -315px;
+    margin-left: -163px;
+}
+
+#periwinklemushroom {
+    margin-left: -69px;
+    width: 213px;
+    height: 256px;
+}
+
+@keyframes periwinklemushroom { 
+    0% {
+        background-position: 0px 0;
+    }
+    50% {
+        background-position: -213px 0;
+    }
+}
+
+#berry {
+    margin-left: 3px;
+    width: 154px;
+    height: 386px;
+}
+
+@keyframes berry { 
+    0% {
+        background-position: 0px 0;
+    }
+    35% {
+        background-position: -154px 0;
+    }
+    70% {
+        background-position: -308px 0;
+    }
+}
+
+#wcircleplant {
+    margin-left: -40px;
+    margin-top: 14px;
+}
+
+#fivthneedle {
+    margin-left: -40px;
+    margin-bottom: -181px;
     }
 
-    .woman, .hop, .horror {
-        width: 150px;
-        height: 92px;
+#sixthneedle {
+    margin-left: 36px;
+    margin-bottom: -49px;
     }
 
-    .woman p{
-        margin-left: 91px;
-        margin-top: -421px;
+#seventhneedle {
+    margin-left: 18px;
+    margin-bottom: -94px;
     }
 
-    .horror p{
-        margin-left: 8px;
-        margin-top: -64px;
-    }
+.wcircleplant p{
+    margin-left: -105px;
+    margin-top: -891px;
+}
 
-    .hop p{
-        width: 150px;
-        height: 92px;
-        margin-left: 536px;
-        margin-top: -779px;
-    }
+.wcircleplant:hover p {
+opacity: 1;
+}
 
-    /* третий ряд цветов  */
-    .insect {
-        width: 576px;
-        height: 633px;
-        margin-top: -350px;
-        margin-left: 1189px;
-    }
+/* футер со звездочками */
 
-    .lights {
-        width: 138px;
-        height: 70px;
-        margin-top: -219px;
-        margin-left: -521px;
-    }
+.footer {
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-top: -122px;
+    max-width: 1920px;
+}
 
-    .third_flowers {
-        width: 1920px;
-        height: 1040px;
-        margin-top: -684px;
-    }
+.info:hover p {
+    letter-spacing: 14px;
+}
 
-    .narcissus {
-        width: 763px;
-        height: 865px;
-        margin-bottom: -59px;
-        margin-left: -164px;
-    }
+#group {
+    margin-left: 80px;
+}
 
-    .smallmushroom {
-        width: 143px;
-        height: 222px;
-        margin-left: -253px;
-    }
+#name {
+    margin-left: 80px;
+    margin-top: 6px;
+}
 
-    .violetheartplant {
-        width: 87px;
-        height: 339px;
-        margin-left: 37px;
-    }
 
-    .iris {
-        width: 455px;
-        height: 807px;
-        margin-left: -131px;
-    }
+.footerstars {
+    height: 65px;
+}
 
-    .zag {
-        width: 31px;
-        height: 695px;
-        margin-left: -18px;
-    }
+.fourth_stars {
+    height: 74px;
+}
 
-    .zig {
-        width: 266px;
-        height: 855px;
-        margin-left: -19px;
-        margin-right: 53px;
-    }
+#littlestar5 {
+    margin-top: -146px;
+    margin-left: 61px;
+}
 
-    .greenmushroom {
-        width: 286px;
-        height: 367px;
-        margin-left: -301px;
-        margin-right: 86px;
-    }
+#smallstar4 {
+    margin-top: -149px;
+    margin-left: 166px;
+}
 
-    .jasmine {
-        width: 344px;
-        height: 674px;
-        margin-left: -230px;
-        margin-right: -12px;
-    }
+#middlestar4 {
+    margin-top: -117px;
+    margin-left: 143px;
+}
 
-    .periwinklemushroom {
-        width: 213px;
-        height: 256px;
-        margin-left: -43px;
-    }
+#littlestar6 {
+    margin-top: -95px;
+    margin-left: 213px;
+}
 
-    .berry {
-        width: 133px;
-        height: 369px;
-        margin-left: 2px;
-    }
+#bigstar4 {
+    margin-top: -141px;
+    margin-left: 219px;
+}
 
-    .wcircle_plant {
-        width: 159px;
-        height: 770px;
-        margin-left: -31px;
-    } 
+#smallstar5 {
+    margin-top: -100px;
+    margin-left: 195px;
+}
 
-    /* третий ряд названий */
-    .third_names {
-        width: 1770px;
-    }
+#bigstar5 {
+    margin-top: -127px;
+    margin-left: 194px;
+}
 
-    .dream, .love, .dark {
-        width: 182px;
-        height: 92px;
-    }
+#littlestar7 {
+    margin-top: -97px;
+    margin-left: 154px;
+}
 
-    .dream p{
-        margin-left: 64px;
-        margin-top: -153px;
-    }
+#middlestar5 {
+    margin-top: -144px;
+    margin-left: 91px;
+}
 
-    .love p{
-        margin-left: 191px;
-        margin-top: -798px;
-    }
+#smallstar6 {
+    margin-top: -93px;
+    margin-left: 153px;
+}
 
-    .dark p{
-        margin-left: 43px;
-        margin-top: -858px;
-    }
+#bigstar6 {
+    margin-top: -125px;
+    margin-left: 523px;
+}
 
-    /* футер со звездочками */
+#middlestar6 {
+    margin-top: -114px;
+    margin-left: 214px;
+}
 
-    .footer {
-        font-size: 30px;
-        letter-spacing: 8px;
-        height: 331px;
-    }
-    .group {
-        margin-left: 80px;
-        margin-top: 127px;
-    }
-    .name {
-        margin-left: 80px;
-        margin-top: 6px;
-    }
-    .starsfooter img {
-        width: 1795px;
-        height: 161px;
-        margin-top: -29px;
-    }
+#middlestar7 {
+    margin-top: -104px;
+    margin-left: 203px;
+}
+
+#littlestar8 {
+    margin-top: -106px;
+    margin-left: 224px;
+}
+
+#smallstar7 {
+    margin-top: -98px;
+    margin-left: 184px;
+}
+
+#bigstar7 {
+    margin-top: -113px;
+    margin-left: 214px;
+}
 }
