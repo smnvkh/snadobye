@@ -1,8 +1,7 @@
 @media only screen and (min-width: 1440px) and (max-width: 1919px) {
     .first_row p, .second_row p, .third_row p {
-        font-size: 25px;
-        letter-spacing: 7px;
-        line-height: 30px;
+        font-size: 30px;
+        letter-spacing: 8px;
         width: 176px;
     }
     
@@ -163,11 +162,15 @@
         margin-top: -114px;
     }
 
+    .heartplant {
+        margin-right: 32px;
+    }
+
     #heartplant {
         width: 216px;
         height: 508px;
         margin-bottom: -503px;
-        margin-left: -92px;
+        margin-left: -71px;
     }
 
     .violethearts img {
@@ -176,8 +179,8 @@
     }
 
     .violethearts {
-        margin-left: 38px;
-        margin-bottom: 174px;
+        margin-left: 60px;
+        margin-bottom: 170px;
     }
 
     #oneheart {
@@ -216,8 +219,8 @@
     }
 
     .heartplant p {
-        margin-left: 132px;
-        margin-bottom: 40px;
+        margin-left: 108px;
+        margin-bottom: 11px;
     }
 
     #pansy {
@@ -518,8 +521,8 @@
     }
 
     .bellflower p {
-        margin-top: -99px;
-        margin-left: -40px;
+        margin-top: -73px;
+        margin-left: -36px;
     }
     
     #zigplant {
@@ -796,9 +799,9 @@
     }
 
     .daisy p {
-        margin-right: 98px;
-        margin-top: -240px;
-        margin-left: -84px;
+        margin-right: 102px;
+        margin-top: -244px;
+        margin-left: -87px;
     }
     
     /* второй ряд цветов  */
@@ -890,13 +893,13 @@
     
     .womanbite p {
         margin-left: 74px;
-        margin-top: -49px;
+        margin-top: -26px;
     }
     
     .algae p{
         width: 150px;
-        margin-left: 275px;
-        margin-top: 739px;
+        margin-left: 211px;
+        margin-top: 567px
     }
     
     .algae {
@@ -1240,8 +1243,8 @@
     }
 
     .septumgrass p{
-        margin-left: -66px;
-        margin-top: -132px;
+        margin-left: -69px;
+        margin-top: -139px;
     }
     
     #cornflower {
@@ -1366,7 +1369,7 @@
     }
 
     .narcissus p{
-        margin-top: 491px;
+        margin-top: 519px;
     }
     
     #smallmushroom {
@@ -1507,81 +1510,6 @@
         background-size: 997px 3154px;
     }
     
-    @keyframes zigplant { 
-        0% {
-            background-position: 0 0;
-        }
-        4% {
-            background-position: -199px 0;
-        }
-        8% {
-            background-position: -399px 0;
-        }
-        12% {
-            background-position: -598px 0;
-        }
-        16% {
-            background-position: -798px 0;
-        }
-        20% {
-            background-position: 0 -631px;
-        }
-        24% {
-            background-position: -199px -631px;
-        }
-        28% {
-            background-position: -399px -631px;
-        }
-        32% {
-            background-position: -598px -631px;
-        }
-        36% {
-            background-position: -798px -631px;
-        }
-        40% {
-            background-position: 0 -1262px;
-        }
-        44% {
-            background-position: -199px -1262px;
-        }
-        48% {
-            background-position: -399px -1262px;
-        }
-        52% {
-            background-position: -598px -1262px;
-        }
-        56% {
-            background-position: -798px -1262px;
-        }
-        60% {
-            background-position: 0 -1893px;
-        }
-        64% {
-            background-position: -199px -1893px;
-        }
-        68% {
-            background-position: -399px -1893px;
-        }
-        72% {
-            background-position: -598px -1893px;
-        }
-        76% {
-            background-position: -798px -1893px;
-        }
-        80% {
-            background-position: 0 -2524px;
-        }
-        84% {
-            background-position: -199px -2524px;
-        }
-        88% {
-            background-position: -399px -2524px;
-        }
-        92% {
-            background-position: -598px -2524px;
-        }
-    }
-    
     .zig p{
         margin-left: -4px;
         margin-bottom: -34px;
@@ -1672,17 +1600,17 @@
     }
     
     #jasminebody {
-        margin-bottom: -446px;
-        margin-left: 43px;
+        margin-bottom: -519px;
+        margin-left: 42px;
         width: 79px;
         height: 370px;
     }
     
     #jasminehead {
-        margin-bottom: -139px;
-        margin-left: -42px;
-        width: 188px;
-        height: 176px;
+        margin-bottom: -136px;
+        margin-left: -81px;
+        width: 239px;
+        height: 246px;
     }
     
     #periwinklemushroom {
@@ -1758,123 +1686,123 @@
     
     /* футер со звездочками */
 
-.footer {
-    font-size: 22px;
-    letter-spacing: 6px;
-    margin-top: 85px;
-    max-width: 1440px;
-}
+    .footer {
+        font-size: 22px;
+        letter-spacing: 6px;
+        margin-top: 85px;
+        max-width: 1440px;
+    }
 
-.info {
-    margin-bottom: -10px;
-}
+    .info {
+        margin-bottom: -10px;
+    }
 
-.info:hover p {
-    letter-spacing: 11px;
-}
+    .info:hover p {
+        letter-spacing: 11px;
+    }
 
-#group {
-    margin-left: 60px;
-}
+    #group {
+        margin-left: 60px;
+    }
 
-#name {
-    margin-left: 60px;
-    margin-top: 4px;
-}
+    #name {
+        margin-left: 60px;
+        margin-top: 4px;
+    }
 
 
-.footerstars {
-    height: 120px;
-    max-width: 1440px;
-    margin-top: -70px;
-}
+    .footerstars {
+        height: 120px;
+        max-width: 1440px;
+        margin-top: -70px;
+    }
 
-.fourth_stars {
-    height: 120px;
-    margin-top: 67px;
-}
+    .fourth_stars {
+        height: 120px;
+        margin-top: 67px;
+    }
 
-#littlestar5 {
-    margin-top: -123px;
-    margin-left: 47px;
-}
+    #littlestar5 {
+        margin-top: -123px;
+        margin-left: 47px;
+    }
 
-#smallstar4 {
-    margin-top: -133px;
-    margin-left: 122px;
-}
+    #smallstar4 {
+        margin-top: -133px;
+        margin-left: 122px;
+    }
 
-#middlestar4 {
-    margin-top: -107px;
-    margin-left: 103px;
-}
+    #middlestar4 {
+        margin-top: -107px;
+        margin-left: 103px;
+    }
 
-#littlestar6 {
-    margin-top: -91px;
-    margin-left: 155px;
-}
+    #littlestar6 {
+        margin-top: -91px;
+        margin-left: 155px;
+    }
 
-#bigstar4 {
-    margin-top: -126px;
-    margin-left: 161px;
-}
+    #bigstar4 {
+        margin-top: -126px;
+        margin-left: 161px;
+    }
 
-#smallstar5 {
-    margin-top: -94px;
-    margin-left: 153px;
-}
+    #smallstar5 {
+        margin-top: -94px;
+        margin-left: 153px;
+    }
 
-#bigstar5 {
-    margin-top: -115px;
-    margin-left: 137px;
-}
+    #bigstar5 {
+        margin-top: -115px;
+        margin-left: 137px;
+    }
 
-#littlestar7 {
-    margin-top: -83px;
-    margin-left: 119px;
-}
+    #littlestar7 {
+        margin-top: -83px;
+        margin-left: 119px;
+    }
 
-#middlestar5 {
-    margin-top: -126px;
-    margin-left: 66px;
-}
+    #middlestar5 {
+        margin-top: -126px;
+        margin-left: 66px;
+    }
 
-#smallstar6 {
-    margin-top: -89px;
-    margin-left: 115px;
-}
+    #smallstar6 {
+        margin-top: -89px;
+        margin-left: 115px;
+    }
 
-.fivth_stars {
-    margin-bottom: -5px;
-}
+    .fivth_stars {
+        margin-bottom: -5px;
+    }
 
-#bigstar6 {
-    margin-top: -117px;
-    margin-left: 390px;
-}
+    #bigstar6 {
+        margin-top: -117px;
+        margin-left: 390px;
+    }
 
-#middlestar6 {
-    margin-top: -114px;
-    margin-left: 158px;
-}
+    #middlestar6 {
+        margin-top: -114px;
+        margin-left: 158px;
+    }
 
-#middlestar7 {
-    margin-top: -104px;
-    margin-left: 148px;
-}
+    #middlestar7 {
+        margin-top: -104px;
+        margin-left: 148px;
+    }
 
-#littlestar8 {
-    margin-top: -99px;
-    margin-left: 170px;
-}
+    #littlestar8 {
+        margin-top: -99px;
+        margin-left: 170px;
+    }
 
-#smallstar7 {
-    margin-top: -94px;
-    margin-left: 133px;
-}
+    #smallstar7 {
+        margin-top: -94px;
+        margin-left: 133px;
+    }
 
-#bigstar7 {
-    margin-top: -113px;
-    margin-left: 154px;
-}
-}
+    #bigstar7 {
+        margin-top: -113px;
+        margin-left: 154px;
+    }
+    }
