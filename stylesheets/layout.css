@@ -22,7 +22,7 @@ body {
 }
 .row {
     position: absolute;
-    animation: row 7s linear infinite;
+    animation: row 10s linear infinite;
 }
 
 /* звездочки  */

@@ -774,7 +774,7 @@
     }
     
     .daisy {
-        margin-bottom: -122px;
+        margin-bottom: -125px;
         margin-left: 53px;
     }
     
@@ -782,13 +782,13 @@
         width: 100px;
         height: 284px;
         margin-left: -56px;
-        margin-bottom: -263px;
+        margin-bottom: -262px
     }
     
     #core {
         width: 55px;
         height: 55px;
-        margin-left: -56px;
+        margin-left: -58px;
     }
 
     .daisy p {
@@ -1508,7 +1508,7 @@
 
     #greenmushroom {
         margin-left: -349px;
-        margin-bottom: -349px;
+        margin-bottom: -359px;
         width: 74px;
         height: 130px;
         background-size: 370px 650px;
