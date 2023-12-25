@@ -34,11 +34,11 @@
 
     .headerstars {
         height: 142px;
-        max-width: 768px;
+        max-width: 414px;
         }
 
     #littlestar1, #littlestar2, #littlestar3, #littlestar4, #littlestar5, #littlestar6, #littlestar7, #littlestar8 {
-        opacity: 0;
+        display: none;
     }
     
     #smallstar1, #smallstar2, #smallstar3, #smallstar4, #smallstar5, #smallstar6, #smallstar7, #smallstar1 img, #smallstar2 img, #smallstar3 img, #smallstar4 img, #smallstar5 img, #smallstar6 img, #smallstar7 img {
@@ -131,7 +131,7 @@
 
     .first_row {
         height: 418px;
-        max-width: 768px;
+        max-width: 414px;
         margin-top: -32px;
         margin-bottom: 304px;
     }
@@ -787,7 +787,7 @@
     
     .second_row {
         height: 738px;
-        max-width: 768px;
+        max-width: 414px;
         margin-bottom: 427px;
     }
 
@@ -1282,8 +1282,8 @@
 
      /* третий ряд цветов  */
     .third_row {
-        height: 364px;
-        max-width: 768px;
+        height: 404px;
+        max-width: 414px;
         margin-top: 351px;
     }
 
@@ -1667,7 +1667,7 @@
     .footer {
         font-size: 12px;
         letter-spacing: 4px;
-        margin-top: -34px;
+        margin-top: -54px;
         max-width: 414px;
     }
 
@@ -1681,7 +1681,7 @@
 
     #name {
         margin-left: 24px;
-        margin-top: 6px;
+        margin-top: 4px;
     }
 
 
@@ -1693,66 +1693,65 @@
 
     .fourth_stars {
         height: 78px;
-        margin-top: 130px;
+        margin-top: 65px;
     }
 
     #smallstar4 {
-        margin-top: -68px;
-        margin-left: 29px;
+        margin-top: -4px;
+        margin-left: 17px;
     }
 
     #middlestar4 {
-        margin-top: -53px;
-        margin-left: 69px;
+        margin-top: -4px;
+        margin-left: 50px;
     }
 
     #bigstar4 {
-        margin-top: -62px;
-        margin-left: 64px;
-    }
-
-    #smallstar5 {
-        margin-top: -44px;
-        margin-left: 28px;
-    }
-
-    #bigstar5 {
-        margin-top: -30px;
+        margin-top: 7px;
         margin-left: 35px;
     }
 
+    #smallstar5 {
+        margin-top: 1px;
+        margin-left: 44px;
+    }
+
+    #bigstar5 {
+        margin-top: 29px;
+        margin-left: 55px;
+    }
+
     #middlestar5 {
-        margin-top: -56px;
-        margin-left: -4px;
+    margin-left: -44px;
     }
 
     #smallstar6 {
-        margin-top: -61px;
-        margin-left: 56px;
+        margin-top: 23px;
+        margin-left: 90px;
     }
 
     #bigstar6 {
-        margin-top: -47px;
-        margin-left: 202px;
+        margin-top: -45px;
+        margin-left: 267px;
     }
 
     #middlestar6 {
-        margin-top: -48px;
-        margin-left: 146px;
+        margin-top: -13px;
+        margin-left: 72px;
     }
 
     #middlestar7 {
-        margin-top: -88px;
-        margin-left: -211px;
+        margin-top: -42px;
+        margin-left: -12px;
     }
 
     #smallstar7 {
-        margin-top: -96px;
-        margin-left: -97px;
+        margin-top: -7px;
+        margin-left: -155px;
     }
 
     #bigstar7 {
-        margin-top: -92px;
-        margin-left: 184px;
+        margin-top: -26px;
+        margin-left: 172px;
     }
     }
