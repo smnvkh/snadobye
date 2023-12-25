@@ -112,6 +112,10 @@
         margin-top: -141px;
         margin-left: -91px;
     }
+
+    #butterfly:hover {
+        animation-play-state: none;
+    }
     
     #dragonfly {
         width: 90px;
@@ -119,12 +123,20 @@
         margin-top: -95px;
         margin-left: -80px;
     }
+
+    #dragonfly:hover {
+        animation-play-state: none;
+    }
     
     #beetle {
         width: 49px;
         height: 71px;
         margin-top: -97px;
         margin-left: -55px;
+    }
+
+    #beetle:hover {
+        animation-play-state: none;
     }
 
     /* первый ряд цветов  */
@@ -1320,7 +1332,7 @@
     }
     
     .narcissus {
-        margin-left: 30px;
+        margin-left: 15px;
         width: 185px;
         height: 309px;
         background-size: 740px 661px;
@@ -1358,7 +1370,7 @@
     }
     
     #smallmushroom {
-        margin-left: -58px;
+        margin-left: -38px;
         width: 57px;
         height: 89px;
         background-size: 171px 89px;

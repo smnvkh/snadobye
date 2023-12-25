@@ -112,6 +112,10 @@
         margin-top: -126px;
         margin-left: -83px;
     }
+
+    #butterfly:hover {
+        animation-play-state: none;
+    }
     
     #dragonfly {
         width: 90px;
@@ -119,12 +123,20 @@
         margin-top: -69px;
         margin-left: -80px;
     }
+
+    #dragonfly:hover {
+        animation-play-state: none;
+    }
     
     #beetle {
         width: 43px;
         height: 62px;
         margin-top: -103px;
         margin-left: -55px;
+    }
+
+    #beetle:hover {
+        animation-play-state: none;
     }
 
     /* первый ряд цветов  */
@@ -428,7 +440,8 @@
     
     .bellflower {
         margin-bottom: -277px;
-        margin-left: -324px;
+        margin-left: -329px;
+        margin-right: 27px;
         width: 113px;
         height: 173px;
         background-size: 904px 520px;
@@ -504,8 +517,8 @@
     }
     
     #zigplant {
-        margin-left: -102px;
-        margin-right: -42px;
+        margin-left: -109px;
+        margin-right: -87px;
         margin-bottom: -282px;
         width: 104px;
         height: 329px;
@@ -588,7 +601,8 @@
     }
     
     #zagplant {
-        margin-left: 56px;
+        margin-left: 95px;
+        margin-right: -48px;
         margin-bottom: -285px;
         width: 6px;
         height: 229px;
@@ -676,9 +690,9 @@
     #wavymushroom {
         margin-left: 56px;
         margin-bottom: -285px;
-        width: 6px;
-        height: 229px;
-        background-size: 30px 1147px;
+        width: 66px;
+        height: 150px;
+        background-size: 330px 750px;
     }
     
     @keyframes wavymushroom { 
@@ -1321,7 +1335,7 @@
     }
     
     .narcissus {
-        margin-left: 25px;
+        margin-left: 20px;
         width: 161px;
         height: 279px;
         background-size: 644px 575px;
