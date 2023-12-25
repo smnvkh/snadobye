@@ -321,7 +321,7 @@
         }  
     
     #seaplant {
-        width: 147px;
+        width: 146px;
         height: 222px;
         margin-left: -83px;
         margin-bottom: 52px;
@@ -344,11 +344,11 @@
     }
     
     #chamomile {
-        width: 168px;
-        height: 498px;
+        width: 154px;
+        height: 470px;
         margin-left: -45px;
         margin-bottom: 48px;
-        background-size: 1304px 2007px;
+        background-size: 1224px 1882px;
     }
 
     @keyframes chamomile { 
@@ -356,82 +356,82 @@
             background-position: 0 0;
         }
         4% {
-            background-position: -163px 0;
+            background-position: -153px 0;
         }
         8% {
-            background-position: -326px 0;
+            background-position: -306px 0;
         }
         12% {
-            background-position: -489px 0;
+            background-position: -459px 0;
         }
         16% {
-            background-position: -652px 0;
+            background-position: -612px 0;
         }
         20% {
-            background-position: -815px 0;
+            background-position: -765px 0;
         }
         24% {
-            background-position: -978px 0;
+            background-position: -918px 0;
         }
         28% {
-            background-position: -1141px 0;
+            background-position: -1071px 0;
         }
         32% {
-            background-position: 0 -502px;
+            background-position: 0 -470px;
         }
         36% {
-            background-position: -163px -502px;
+            background-position: -153px -470px;
         }
         40% {
-            background-position: -326px -502px;
+            background-position: -306px -470px;
         }
         44% {
-            background-position: -489px -502px;
+            background-position: -459px -470px;
         }
         48% {
-            background-position: -652px -502px;
+            background-position: -612px -470px;
         }
         52% {
-            background-position: -815px -502px;
+            background-position: -765px -470px;
         }
         56% {
-            background-position: -978px -502px;
+            background-position: -918px -470px;
         }
         60% {
-            background-position: -1141px -502px;
+            background-position: -1071px -470px;
         }
         64% {
-            background-position: 0 -1004px;
+            background-position: 0 -940px;
         }
         68% {
-            background-position: -163px -1004px;
+            background-position: -153px -940px;
         }
         72% {
-            background-position: -326px -1004px;
+            background-position: -306px -940px;
         }
         76% {
-            background-position: -489px -1004px;
+            background-position: -459px -940px;
         }
         80% {
-            background-position: -652px -1004px;
+            background-position: -612px -940px;
         }
         84% {
-            background-position: -815px -1004px;
+            background-position: -765px -940px;
         }
         87% {
-            background-position: -978px -1004px;
+            background-position: -918px -940px;
         }
         90% {
-            background-position: -1141px -1004px;
+            background-position: -1071px -940px;
         }
         93% {
-            background-position: 0 -1506px;
+            background-position: 0 -1410px;
         }
         96% {
-            background-position: -163px -1506px;
+            background-position: -153px -1410px;
         }
         99% {
-            background-position: -326px -1506px;
+            background-position: -306px -1410px;
         }
     }
 
@@ -1683,10 +1683,6 @@
     .wcircleplant p{
         margin-left: -158px;
         margin-bottom: -222px;
-    }
-    
-    .wcircleplant:hover p {
-    opacity: 1;
     }
     
     /* футер со звездочками */

@@ -322,11 +322,11 @@
         }  
     
     #seaplant {
-        width: 121px;
+        width: 119px;
         height: 178px;
         margin-left: -73px;
         margin-bottom: 40px;
-        background-size: 472px 178px;
+        background-size: 471px 178px;
     }
     
     @keyframes seaplant { 
@@ -345,11 +345,11 @@
     }
     
     #chamomile {
-        width: 130px;
-        height: 384px;
+        width: 119px;
+        height: 353px;
         margin-left: -39px;
         margin-bottom: 41px;
-        background-size: 999px 1536px;
+        background-size: 919px 1414px;
     }
 
     @keyframes chamomile { 
@@ -357,82 +357,82 @@
             background-position: 0 0;
         }
         4% {
-            background-position: -125px 0;
+            background-position: -115px 0;
         }
         8% {
-            background-position: -250px 0;
+            background-position: -230px 0;
         }
         12% {
-            background-position: -375px 0;
+            background-position: -345px 0;
         }
         16% {
-            background-position: -500px 0;
+            background-position: -460px 0;
         }
         20% {
-            background-position: -625px 0;
+            background-position: -575px 0;
         }
         24% {
-            background-position: -750px 0;
+            background-position: -690px 0;
         }
         28% {
-            background-position: -875px 0;
+            background-position: -805px 0;
         }
         32% {
-            background-position: 0 -384px;
+            background-position: 0 -353px;
         }
         36% {
-            background-position: -125px -384px;
+            background-position: -115px -353px;
         }
         40% {
-            background-position: -250px -384px;
+            background-position: -230px -353px;
         }
         44% {
-            background-position: -375px -384px;
+            background-position: -345px -353px;
         }
         48% {
-            background-position: -500px -384px;
+            background-position: -460px -353px;
         }
         52% {
-            background-position: -625px -384px;
+            background-position: -575px -353px;
         }
         56% {
-            background-position: -750px -384px;
+            background-position: -690px -353px;
         }
         60% {
-            background-position: -875px -384px;
+            background-position: -805px -353px;
         }
         64% {
-            background-position: 0 -768px;
+            background-position: 0 -706px;
         }
         68% {
-            background-position: -125px -768px;
+            background-position: -115px -706px;
         }
         72% {
-            background-position: -250px -768px;
+            background-position: -230px -706px;
         }
         76% {
-            background-position: -375px -768px;
+            background-position: -345px -706px;
         }
         80% {
-            background-position: -500px -768px;
+            background-position: -460px -706px;
         }
         84% {
-            background-position: -625px -768px;
+            background-position: -575px -706px;
         }
         87% {
-            background-position: -750px -768px;
+            background-position: -690px -706px;
         }
         90% {
-            background-position: -875px -768px;
+            background-position: -805px -706px;
         }
         93% {
-            background-position: 0 -1152px;
+            background-position: 0 -1059px;
         }
         96% {
-            background-position: -125px -1152px;
+            background-position: -115px -1059px;
         }
         99% {
-            background-position: -250px -1152px;
+            background-position: -230px -1059px;
         }
     }
 
@@ -1496,7 +1496,6 @@
     }
 
     #zag {
-        background-size: 67px 2518px;
         width: 10px;
         height: 376px;
         margin-left: -14px;
@@ -1682,10 +1681,6 @@
     .wcircleplant p{
         margin-left: -136px;
         margin-top: 23px;
-    }
-    
-    .wcircleplant:hover p {
-    opacity: 1;
     }
     
     /* футер со звездочками */

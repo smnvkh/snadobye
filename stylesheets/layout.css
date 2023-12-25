@@ -102,7 +102,7 @@ body {
         transform: translate(0vw, -1vw);
     }
     100% {
-        transform: translate(110vw, 2.6vw);
+        transform: translate(120vw, 2.6vw);
     }
 }
 
@@ -112,7 +112,7 @@ body {
 
 #dragonfly {
     display: block;
-    animation: dragonfly 6s ease-in-out infinite;
+    animation: dragonfly 5s ease-in-out infinite;
 }
 
 @keyframes dragonfly {
@@ -120,7 +120,7 @@ body {
         transform: translate(0vw, 7vw);
     }
     100% {
-        transform: translate(110vw, -4vw);
+        transform: translate(120vw, -4vw);
     }
 }
 
@@ -130,7 +130,7 @@ body {
 
 #beetle {
     display: block;
-    animation: beetle 8s ease-in-out infinite;
+    animation: beetle 7s ease-in-out infinite;
 }
 
 @keyframes beetle {
@@ -138,7 +138,7 @@ body {
         transform: translate(0vw, -1vw);
     }
     100% {
-        transform: translate(110vw, 3vw);
+        transform: translate(120vw, 3vw);
     }
 }
 
@@ -572,7 +572,7 @@ opacity: 1;
 }
 
 .frog:hover #eyes {
-    opacity: 0;
+    animation-play-state: paused;
 }
 
 .second_flowers {
@@ -704,7 +704,7 @@ opacity: 1;
 }
 
 .grasshopper:hover #lights {
-    opacity: 0;
+    animation-play-state:paused;
 }
 
 .third_flowers {

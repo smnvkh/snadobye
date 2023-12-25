@@ -16,8 +16,6 @@ body {
     width: 15vw;
 }
 
-/* бегущая строка */
-
 .container {
     height: 2.4vw;
     display: block;
@@ -34,7 +32,6 @@ body {
     animation: row 7s linear infinite;
 }
 
-/* анимация для бегущей строки  */
 @keyframes row {
     0% {
         right: -168vw;
@@ -44,7 +41,6 @@ body {
     }
 }
 
-/* звездочки  */
 .headerstars {
     display: flex;
     height: 16vw;
@@ -66,7 +62,6 @@ body {
     animation: littlestars 4s ease-in-out infinite;
 }
 
-/* анимация для маленьких и очень маленьких звездочек */
 @keyframes littlestars {
     0% {
         transform: scale(1);
@@ -93,7 +88,7 @@ body {
     animation: bigstars 3s ease-in-out infinite;
 }
 
-/* анимация для средних и больших звезд */
+
 @keyframes bigstars {
     0% {
         transform: scale(0.5);
@@ -187,7 +182,6 @@ body {
     margin-left: 20vw;
 }
 
-/* первый ряд цветов  */
 .first_row {
     height: 51vw;
     width: 100vw;

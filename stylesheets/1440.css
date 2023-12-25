@@ -342,11 +342,11 @@
     }
     
     #chamomile {
-        width: 172px;
-        height: 528px;
+        width: 170px;
+        height: 522px;
         margin-left: -47px;
         margin-bottom: 50px;
-        background-size: 1373px 2113px;
+        background-size: 1360px 2091px;
     }
 
     @keyframes chamomile { 
@@ -354,82 +354,82 @@
             background-position: 0 0;
         }
         4% {
-            background-position: -172px 0;
+            background-position: -170px 0;
         }
         8% {
-            background-position: -344px 0;
+            background-position: -340px 0;
         }
         12% {
-            background-position: -516px 0;
+            background-position: -510px 0;
         }
         16% {
-            background-position: -688px 0;
+            background-position: -680px 0;
         }
         20% {
-            background-position: -860px 0;
+            background-position: -850px 0;
         }
         24% {
-            background-position: -1032px 0;
+            background-position: -1020px 0;
         }
         28% {
-            background-position: -1204px 0;
+            background-position: -1190px 0;
         }
         32% {
-            background-position: 0 -528px;
+            background-position: 0 -523px;
         }
         36% {
-            background-position: -172px -528px;
+            background-position: -170px -523px;
         }
         40% {
-            background-position: -344px -528px;
+            background-position: -340px -523px;
         }
         44% {
-            background-position: -516px -528px;
+            background-position: -510px -523px;
         }
         48% {
-            background-position: -688px -528px;
+            background-position: -680px -523px;
         }
         52% {
-            background-position: -860px -528px;
+            background-position: -850px -523px;
         }
         56% {
-            background-position: -1032px -528px;
+            background-position: -1020px -523px;
         }
         60% {
-            background-position: -1204px -528px;
+            background-position: -1190px -523px;
         }
         64% {
-            background-position: 0 -1056px;
+            background-position: 0 -1046px;
         }
         68% {
-            background-position: -172px -1056px;
+            background-position: -170px -1046px;
         }
         72% {
-            background-position: -344px -1056px;
+            background-position: -340px -1046px;
         }
         76% {
-            background-position: -516px -1056px;
+            background-position: -510px -1046px;
         }
         80% {
-            background-position: -688px -1056px;
+            background-position: -680px -1046px;
         }
         84% {
-            background-position: -860px -1056px;
+            background-position: -850px -1046px;
         }
         87% {
-            background-position: -1032px -1056px;
+            background-position: -1020px -1046px;
         }
         90% {
-            background-position: -1204px -1056px;
+            background-position: -1190px -1046px;
         }
         93% {
-            background-position: 0 -1584px;
+            background-position: 0 -1569px;
         }
         96% {
-            background-position: -172px -1584px;
+            background-position: -170px -1569px;
         }
         99% {
-            background-position: -344px -1584px;
+            background-position: -340px -1569px;
         }
     }
 
@@ -1678,10 +1678,6 @@
     .wcircleplant p{
         margin-left: -51px;
         margin-bottom: -245px;
-    }
-    
-    .wcircleplant:hover p {
-    opacity: 1;
     }
     
     /* футер со звездочками */
